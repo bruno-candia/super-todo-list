@@ -1,0 +1,21 @@
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 1rem;
+  background: var(--gray-300);
+  border-radius: 1rem;
+  font-size: 0.75rem;
+}
+
+.item--left {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.item--right {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
